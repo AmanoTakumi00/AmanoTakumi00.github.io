@@ -28,8 +28,8 @@ correctAnswer: "傾向がある"
     {
 //849問目
 question:"match(名詞)の意味は？",
-choices: ["匹敵する","そのように","準備ができている","比べる"],
-correctAnswer: "匹敵する"
+choices: ["試合","そのように","準備ができている","比べる"],
+correctAnswer: "試合"
     },
     {
 //874問目
@@ -58,8 +58,8 @@ correctAnswer: "推測する"
     {
 //997問目
 question:"estimate(名詞)の意味は？",
-choices: ["単独","資金","瞬間","予算"],
-correctAnswer: "予算"
+choices: ["単独","資金","瞬間","見積もり"],
+correctAnswer: "見積もり"
     }
 ];
 
