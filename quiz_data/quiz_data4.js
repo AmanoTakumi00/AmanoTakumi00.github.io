@@ -4,8 +4,8 @@ const questions = [
     {
 //371問目
 question:"either(形容詞)の意味は？",
-choices: ["店","すべて","どちらか","横切って"],
-correctAnswer: "どちらか"
+choices: ["店","すべて","どちらの","横切って"],
+correctAnswer: "どちらの"
     },
     {
 //377問目
@@ -34,7 +34,7 @@ correctAnswer: "政治の"
     {
 //398問目
 question:"sale(名詞)の意味は？",
-choices: ["ニュース","販売","減らす","売る"],
+choices: ["ニュース","販売","減らす","買う"],
 correctAnswer: "販売"
     },
     {
@@ -58,7 +58,7 @@ correctAnswer: "加える"
     {
 //419問目
 question:"short(形容詞)の意味は？",
-choices: ["短い","父親","他の","顧慮する"],
+choices: ["短い","父親","他の","配慮する"],
 correctAnswer: "短い"
     }
 ];
