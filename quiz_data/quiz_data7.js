@@ -22,14 +22,14 @@ correctAnswer: "焦点"
     {
 //553問目
 question:"instead(副詞)の意味は？",
-choices: ["代わり","最上部","行動","横切って"],
-correctAnswer: "代わり"
+choices: ["代わりに","最上部","行動","横切って"],
+correctAnswer: "代わりに"
     },
     {
 //557問目
 question:"single(形容詞)の意味は？",
-choices: ["近く","生産する","クラス","単独"],
-correctAnswer: "単独"
+choices: ["近く","生産する","クラス","単独の"],
+correctAnswer: "単独の"
     },
     {
 //565問目
