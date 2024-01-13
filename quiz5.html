@@ -1,0 +1,33 @@
+
+<!-- quiz5.html -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>単語41~0</title>
+    <link rel="stylesheet" href="quiz_css/quiz_styles.css">
+</head>
+<body>
+  <div id="quiz-container">
+    <h2 id="question"></h2>
+    <div id="choices"></div>
+    <p id="result"></p>
+    <p id="score"></p>
+    
+   
+    <button id="returnHome" style="display: none;"onclick="returnToHome()">ホームに戻る</button>
+  </div>
+  <script src="quiz_data/quiz_data5.js" type="module"></script>
+  <script src="quiz_display/quiz_display5.js" type="module"></script>
+  <script>
+    function returnToHome() {
+      // ホームページにリダイレクトする
+      window.location.href = "home.html";
+    }
+    loadQuestion();
+  </script>
+</body>
+</html>
+
