@@ -22,13 +22,13 @@ correctAnswer: "水"
     {
 //325問目
 question:"soon(副詞)の意味は？",
-choices: ["主要な","すぐに","フィルム","フィルム"],
+choices: ["主要な","すぐに","フィルム","物語"],
 correctAnswer: "すぐに"
     },
     {
 //341問目
 question:"mind(名詞)の意味は？",
-choices: ["顧慮する","心","機会","利用できる"],
+choices: ["考慮する","心","機会","利用できる"],
 correctAnswer: "心"
     },
     {
