@@ -39,11 +39,11 @@ function loadQuestion() {
 function chooseAnswer(choice) {
     const currentQuestion = questions[currentQuestionIndex];
     if (choice === currentQuestion.correctAnswer) {
-        resultElement.textContent = "正解！正解は「" + currentQuestion.correctAnswer + "」です。";
+        resultElement.textContent ;
         correctAnswers++;
         questionResults.push(true); // 正解を配列に追加
     } else {
-        resultElement.textContent = "不正解。正解は「" + currentQuestion.correctAnswer + "」です。";
+        resultElement.textContent ;
         questionResults.push(false); // 不正解を配列に追加
     }
     
@@ -58,13 +58,12 @@ function chooseAnswer(choice) {
 }
 
 function showResult() {
-   
-    resultElement.textContent = "クイズ終了！";
+    questionElement.textContent = "クイズ終了！" ;
+    resultElement.textContent = "";
     scoreElement.textContent = "正解数: " + correctAnswers + " / " + questions.length;
     restartButton.style.display = "block";
     returnHomeButton.style.display = "block";
     choicesElement.innerHTML = "";
-
    
         // 成績表の追加
         let gradingTable = "<table border='2'><caption>成績発表</caption>";
