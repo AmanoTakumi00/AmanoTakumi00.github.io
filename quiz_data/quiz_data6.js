@@ -28,8 +28,8 @@ correctAnswer: "しるし"
     {
 //511問目
 question:"regard(動詞)の意味は？",
-choices: ["～の間で","メモ","ほとんど","顧慮する"],
-correctAnswer: "顧慮する"
+choices: ["～の間で","メモ","ほとんど","見なす"],
+correctAnswer: "見なす"
     },
     {
 //516問目
@@ -58,8 +58,8 @@ correctAnswer: "産業"
     {
 //536問目
 question:"certainly(副詞)の意味は？",
-choices: ["地面","届く","確実な","一般的な"],
-correctAnswer: "確実な"
+choices: ["地面","届く","確かに","一般的な"],
+correctAnswer: "確かに"
     }
 ];
 
