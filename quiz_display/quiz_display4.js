@@ -21,7 +21,7 @@ quizContainer.appendChild(restartButton);
 
 function loadQuestion() {
     const currentQuestion = questions[currentQuestionIndex];
-    questionElement.textContent = "問題 " + (currentQuestionIndex + 1) + ": " + currentQuestion.question;
+    questionElement.textContent = "問題 " + (currentQuestionIndex + 31) + ": " + currentQuestion.question;
 
 
     choicesElement.innerHTML = "";
@@ -71,7 +71,7 @@ function showResult() {
     
         // 問題番号を追加
         for (let i = 0; i < questions.length; i++) {
-            gradingTable += "<th>" + (i + 1) + "</th>";
+            gradingTable += "<th>" + (i + 31) + "</th>";
         }
         gradingTable += "</tr>";
     
@@ -92,7 +92,7 @@ function showResult() {
             const result = document.createElement('p');
             const isCorrect = questionResults[i]; // 現在の問題が正解かどうかの判定
         
-            result.textContent = "問題 " + (i + 1) + ": 問題文: " + currentQuestion.question + (isCorrect ? " ○ " : " × ") + " 正解は「" + currentQuestion.correctAnswer + "」です。";
+            result.textContent = "問題 " + (i + 31) + ": 問題文: " + currentQuestion.question + (isCorrect ? " ○ " : " × ") + " 正解は「" + currentQuestion.correctAnswer + "」です。";
             choicesElement.appendChild(result);
         }
 
