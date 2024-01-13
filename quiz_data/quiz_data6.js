@@ -22,8 +22,8 @@ correctAnswer: "しるし"
     {
     //501問目
     question:"claim(名詞)の意味は？",
-    choices: ["期限","忍耐強い","願う","主張する"],
-    correctAnswer: "主張する"
+    choices: ["期限","忍耐強い","願う","主張"],
+    correctAnswer: "主張"
     },
     {
 //511問目
@@ -40,8 +40,8 @@ correctAnswer: "範囲、幅"
     {
 //522問目
 question:"accord(名詞)の意味は？",
-choices: ["運ぶ","合意","役","操作する"],
-correctAnswer: "合意"
+choices: ["運ぶ","協定","役","操作する"],
+correctAnswer: "協定"
     },
     {
 //526問目
